@@ -1,9 +1,10 @@
-import React from "react";
-import Header from "./UI/Header";
-import Main from "./UI/Main";
-import AboutUs from "./UI/AboutUs";
-import Footer from "./UI/Footer";
-const Home = () => {
+import React from 'react';
+import Header from './UI/Header';
+import Main from './UI/Main';
+import AboutUs from './UI/AboutUs';
+import Footer from './UI/Footer';
+
+function Home() {
   return (
     <div>
       <Header />
@@ -12,6 +13,6 @@ const Home = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Home;

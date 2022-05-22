@@ -1,9 +1,9 @@
-import styled from "styled-components";
-import img_hero from '../../src/assets/media/img_hero.jpg'
+import styled from 'styled-components';
+import imgHero from '../assets/media/img_hero.jpg';
 
-const MainStyled = styled.section `
+const MainStyled = styled.section`
 
-  background-image: url(${img_hero});
+  background-image: url(${imgHero});
   color: #fff;
   height: 65vh;
   background-position: right;

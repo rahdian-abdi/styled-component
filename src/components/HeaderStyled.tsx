@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const HeaderStyled = styled.div`
   background-color: #4f4d53;
